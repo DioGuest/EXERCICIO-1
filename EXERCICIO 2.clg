@@ -1,0 +1,23 @@
+algoritmo areaCirculo;
+// Síntese
+//  Objetivo:  
+//  Entrada :raio
+//  Saída   :area
+
+
+principal
+	// Declarações
+   real raio, area;
+    // Instruções
+    escreva ("Digite o valor do raio: ");
+    leia (raio);
+    //calculo
+    area = 3.14 * raio * raio;
+    //mostrar 
+    escreval(raio);
+    escreval(area);
+    
+    
+	
+
+fimPrincipal

@@ -1,0 +1,24 @@
+algoritmo tempoUsuario;
+// Síntese
+//  Objetivo: Construa um algoritmo que leia um número inteiro de horas e mostre ao usuário o
+//correspondente em minutos e segundos destas horas. 
+//  Entrada :horas
+//  Saída   :minutos, segundos
+
+
+principal
+	// Declarações variaveis
+	inteiro Horas, Minutos, Segundos;
+	
+
+	// Instruções
+	escreva("Informe  numero inteiro de horas:");
+	leia(Horas);
+	Minutos = 60 * Horas;
+	Segundos = 60* Minutos;
+	escreval(Minutos, " minutos");
+	escreval(Segundos, " segundos");
+	
+	//"O valor correspondendo(minutos)minutos e (segundos)segundos";
+
+fimPrincipal
