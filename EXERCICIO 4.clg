@@ -1,0 +1,29 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo: Construa um algoritmo que a partir da leitura de dois números forneça o resto e o
+//quociente da divisão do primeiro pelo segundo número. 
+//  Entrada :partir da leitura de dois números
+//  Saída   :forneçer o resto e o
+//quociente da divisão 
+
+
+principal
+	// Declarações
+	inteiro PrimeiroN, SegundoN, Resto, Quociente;
+	 
+
+	// Instruções
+	escreva("Primeiro numero ?");
+	leia(PrimeiroN);
+	escreva("Segundo numero ?");
+	leia(SegundoN);
+
+	Resto = PrimeiroN % SegundoN;
+	Quociente = PrimeiroN/SegundoN;
+	
+
+	escreval(Quociente);
+	escreva(Resto);
+	
+	
+fimPrincipal
