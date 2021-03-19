@@ -1,0 +1,46 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  . Escreva um programa que leia o nome do funcionário, o sexo (F ou M), o número de
+//matrícula do funcionário, o número de horas trabalhadas, o valor que recebe por hora
+//e calcule o salário desse funcionário. A seguir, mostre todos os dados na tela, os dados
+//de entrada e os dados de saída.
+
+//  Entrada :nome do funcionário, o sexo (F ou M), o número de
+//matrícula do funcionário,  o número de horas trabalhadas, :o valor que recebe por hora
+//e calcule o salário desse funcionário.
+//  Saída   : A seguir, mostre todos os dados na tela, os dados
+//de entrada e os dados de saída.
+
+
+
+principal
+	// Declarações
+	texto funcionario, sexo;
+	inteiro matricula,horas,salario, valorH;
+	
+
+	//PROCESSO
+	escreva("Qual nome Funcionario?" );
+	leia(funcionario);
+	escreva("Qual sua sexualidade?" );
+	leia(sexo);
+	escreva("Qual seu numero de matricula? ");
+	leia(matricula);
+	escreval("Quantas horas trabalhadas?");
+	leia(horas);
+	escreva("Qual valor da hora que vc recebe?");
+	leia(valorH);
+	
+	
+
+	// Instruções
+
+	escreval("Nome ", funcionario);
+	escreval("Sexo ", sexo);
+	escreval("Matricula ", matricula);
+	escreval("Horas trabalhadas ", horas);
+	escreval("Valor das Horas trabalhadas ", valorH);
+	escreval("salario ", valorH * horas, " reais");
+	//escreval(");
+	//escreval();
+fimPrincipal
